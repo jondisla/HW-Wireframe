@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/mainbg.jpg)
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, h3, p{
+    margin-bottom: 20px;
+}
+
+#masthead{
+    background: white;
+    margin: 0 0 30px;
+    color: white;
+    overflow: auto;
+    border-bottom: 2px solid rgb(209, 209, 209);
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+#logo{
+    width: 250px;
+    height: 90px;
+    background: rgb(89, 168, 242);
+    color: white;
+    float: left;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    line-height: 90px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+nav{
+    float: right;
+    margin-top: 25px;
+    
+}
+
+nav a{
+    color: gray;
+    line-height: 90px;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid rgb(206, 206, 206);
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:hover{
+    color: rgb(89, 168, 242);
+}
+
+nav a:first-child{
+    border-left: 0 none;
+}
+
+#main-container{
+    padding-top: 130px;
+    
+}
+
+h1, h3{
+    font-size: 40px;
+    color: rgb(89, 168, 242);
+}
+
+h3{
+    font-size: 30px;
+}
+/**********************************************************************/
+.main-section{
+    background: white;
+    padding: 23px;
+    margin: 0 0 40px 0;
+    float: left;
+    max-width: 650px;
+    min-height: 100%;
+
+}
+
+.main-section h1{
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding: 10px;
+}
+
+.main-section p{
+    color: black;
+}
+
+.main-section img{
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar{
+    width: 270px;
+    height: 200px;
+    float: right;
+    background: white;
+}
+
+#connect{
+    margin: 20px;
+    text-align: center;
+}
+
+#connect h3{
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.social{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 60px;
+    text-decoration: center;
+    opacity: .9;
+}
+
+.social:hover{
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+#wrapper{
+    position: relative;
+    height: 700px;
+    bottom: 0;
+}
+
+footer{
+    clear: both;
+    border-top: 5px solid rgb(89, 168, 242);
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    background: rgb(146, 146, 146);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/*************************projects***************************************/
+
+.project-container{
+    float: left;
+    background: white;
+    width: 650px;
+
+}
+
+.project-container h1{
+    border-bottom: 2px solid rgb(212, 212, 212);
+    padding: 10px;
+}
+
+.work{
+    display: inline-block;
+}
+
+.work:hover{
+    transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+.work h3{
+    background: rgb(89, 168, 242);;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    margin: 10px;
+    margin-top: -65px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.auth-image{
+    width: 270px;
+    display: block;
+    margin-left: 35px;
+}
+
+.profooter{
+    position: fixed;
+    bottom: 0;
+}
+
+/**************************contact**************************************/
+
+#contact-form{
+    background: white;
+    width: 650px;
+    float: left;
+    padding: 30px;
+    margin: 0 0 40px 0;
+}
+
+.main-container h1{
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding: 10px;
+}
+
+#contact-form{
+    height: 570px;
+    color: rgb(121, 121, 121);
+}
+
+#contact-form input{
+    height: 40px;
+    font-size: 20px;
+}
+
+#name{
+    width: 550px;
+}
+
+#email{
+    width: 550px;
+}
+
+#contact-form textarea{
+    width: 550px;
+
+}
+
+#contact-form li{
+    margin: 5px;
+}
+
+#message{
+    height: 200px;
+}
+
+#submit{
+    clear: both;
+    background: rgb(89, 168, 242);
+    color: white;
+    width: 100px;
+}
